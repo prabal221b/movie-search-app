@@ -8,9 +8,9 @@ The Movie Search App, named "FakeFlix," is a web application designed to be a us
 - **Responsive Design**: The app is designed to be responsive and user-friendly.
 
 ## How to Use:
-1. Open the [Movie Search App](https://movie-search-evjje7n10-prabal221bs-projects.vercel.app/src/index.html).
+1. Open the [Movie Search App](https://movie-search-app-puce.vercel.app/).
 2. Enter the name of the movie in the search bar.
 3. Click the search button to fetch and display the movie details.
 
 ## Link to the Website:
-[Movie Search App](https://movie-search-evjje7n10-prabal221bs-projects.vercel.app/src/index.html)
+[Movie Search App](https://movie-search-app-puce.vercel.app/)
