@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+    
+</head>
+<body class="bg-black">
+    <div class="header">
+        <img src="./feature-img-min-removebg-preview.png" class="logo mx-auto" alt="">
+        <h2 class="text-neutral-600 text-4xl font-bold">FakeFlix</h2>
+        <p class="text-neutral-600">Everyone's favourite movie search engine!</p>
+        <div class="flex mt-3 mx-auto">
+            <input class="px-4 py-3 text-white" type="text" placeholder="Search Movie" id="movieName" oninput="checkInput()">
+            <button class="btn text-neutral-300" type="submit" onClick="search()" id="searchButton" disabled>Search</button>
+        </div>
+    </div>
+    <div class="px-4 py-3 w-[1200px] mx-auto mt-[-16px] text-neutral-200">
+        <h1 class="text-3xl font-bold text-center text-neutral-300 text-red-500" id="outerContainer"></h1>
+        <div class="flex gap-5 justify-between invisible" id="container">
+            <div>
+                <div class="flex items-end gap-3">
+                    <h1 class="text-6xl text-bold" id="title"></span></h1><span id="year" class="text-md"></span>
+                </div>
+                <p class="text-xl text-neutral-300" id="description"></p>
+                <br>
+                <p class="my-1">Actors: <span id="actors" class="text-neutral-300"></span></p>
+                <p class="my-1">Directors: <span id="directors" class="text-neutral-300"></span></p>
+                <p class="my-1">Awards: <span id="awards" class="text-neutral-300"></span></p>
+                <p class="my-1">Box office Collection: <span id="boxOfficeCol" class="text-neutral-300"></span></p>
+                <p class="my-1">Languages: <span id="lang" class="text-neutral-300"></span></p>
+                <p class="my-1">IMDB Rating: <span id="rating" class="text-neutral-300"></span></p>
+            </div>
+            <img id="poster" src="">
+        </div>
+    </div>
+
+
+    <script src="./App.js"></script>
+</body>
+</html>
