@@ -1,6 +1,6 @@
 # Movie Search App
 
-The Movie Search App, named "FakeFlix," is a web application designed to be a user-friendly movie search engine. Users can search for movies and get detailed information about them, including title, year, description, actors, directors, awards, box office collections, languages, and IMDB rating.
+The Movie Search App, named "FakeFlip," is a web application designed to be a user-friendly movie search engine. Users can search for movies and get detailed information about them, including title, year, description, actors, directors, awards, box office collections, languages, and IMDB rating.
 
 ## Key Features:
 - **Search Functionality**: Users can enter the name of a movie in the search bar and click the search button to fetch movie details.
